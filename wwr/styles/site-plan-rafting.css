@@ -27,6 +27,16 @@ Fonts are separated by a | */
   --nav-hover-background-color: #396E94;
 }
 
+.main-para {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  background-color: #D4AC0D;
+}
+
+#active {
+  background-color: gold;
+  color: steelblue;
+  }
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 

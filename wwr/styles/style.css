@@ -1,0 +1,84 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Tapestry&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+nav a {
+    text-align: center;
+  }
+#hero-msg {
+    text-align: center;
+  }
+#hero-msg h4 {
+    text-align: center;
+  }
+.button-box {
+    text-align: center;
+  }
+main section {
+    text-align: center;
+  }
+  #background {
+    height: 725px;
+  }
+  body{
+    background-color: #d4ac0d80;
+    color: #ac0dac3f;
+  }
+  header{
+    background-color: #ac0dac3f;
+    color: aqua;
+  }
+  nav a:hover{
+    background-color: rgba(221, 85, 85, 0.26);
+    color: black;
+  }
+nav a{
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+  .book, .join{
+    background-color: #ababab52;
+    color: black;
+    text-decoration: solid;
+  }
+  .book:hover, .join:hover{
+    background-color: hsla(231, 59%, 60%, 0.349);
+    color: darkorange;
+  }
+  #background{
+    background-color: #14d40dad;
+    color: black;
+  }
+  .msg{
+    background-color: #8ed40d4d;
+    color: darkred;
+  }
+  footer{
+    background-color: #c30dd438;
+    color: darkorange;
+  }
+  footer a{
+    text-align: justify;
+    color: darkorange;
+    text-decoration: double;
+  }
+.logo{
+    width: 80px;
+}
+.icon{
+    width: 80px;
+}
+#hero-img{
+    width: 1000px;
+}
+footer h3 a:hover{
+    width: 80px;
+    color: aqua;
+    text-size-adjust: 14px;
+    text-decoration: solid;
+}

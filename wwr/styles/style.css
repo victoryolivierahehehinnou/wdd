@@ -1,12 +1,25 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&family=Roboto+Slab:wght@900&display=swap');
+.h1 {
+  font-family: Macondo;
+}
+#logo_link {
+  padding-top: 5px;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
   }
+h2 {
+  font-family: Koulen;
+  margin: 0;
+}
 nav a {
+    text-align: center;
+    font-family: Koulen;
+    padding: 35px;
     text-align: center;
   }
 #hero-msg {
@@ -25,15 +38,24 @@ main section {
     height: 725px;
   }
   body{
-    background-color: #d4ac0d80;
-    color: #ac0dac3f;
+    background-color: wheat;
+    color: black;
+    font-family: "Macondo";
+    margin: 0;
+    padding: 0;
   }
   header{
-    background-color: #ac0dac3f;
-    color: aqua;
+    background-color: #ac0f;
+    color: black;
+  }
+  .home-title{
+    color: white;
+    font-family: "Koulen";
+    font-size: 2em;
+    margin-top: 10px;
   }
   nav a:hover{
-    background-color: rgba(221, 85, 85, 0.26);
+    background-color: rgb(29, 241, 10);
     color: black;
   }
 nav a{
@@ -42,43 +64,79 @@ nav a{
   text-decoration: underline;
 }
   .book, .join{
-    background-color: #ababab52;
+    background-color: blue;
     color: black;
-    text-decoration: solid;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+  }
+  .rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+  }
+
+  .rivers-card{
+    margin: 200px 0;
+    text-align: center;
   }
   .book:hover, .join:hover{
-    background-color: hsla(231, 59%, 60%, 0.349);
+    background-color: hsla(225, 17%, 5%, 0.815);
     color: darkorange;
   }
+  .card-img{
+    border: 10px solid black;
+  }
   #background{
-    background-color: #14d40dad;
+    background-color: #f3ef;
     color: black;
   }
   .msg{
     background-color: #8ed40d4d;
     color: darkred;
+    font-family: "Roboto Slab";
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding: 35px;
+  }
+  .msg p{
+    padding-bottom: 15px;
+  }
+  main section img{
+    box-sizing: border-box;
   }
   footer{
-    background-color: #c30dd438;
+    background-color: black;
     color: darkorange;
+    padding: 25px 50px;
+    margin-top: 200px;
   }
   footer a{
     text-align: justify;
     color: darkorange;
     text-decoration: double;
   }
+footer .social img{
+  padding-top: 15px;
+}
 .logo{
-    width: 80px;
+    width: 180px;
+    text-align: center;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
-    width: 1000px;
+  width: 1000;
+  text-align: justify;
+  margin: 1px 1px;
+
 }
 footer h3 a:hover{
     width: 80px;
     color: aqua;
     text-size-adjust: 14px;
     text-decoration: solid;
+    text-align: center;
 }

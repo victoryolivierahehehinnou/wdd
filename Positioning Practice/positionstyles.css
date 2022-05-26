@@ -37,9 +37,12 @@
     /* This is the parent of the activity 2 boxes. */
   }
   .red2 {
+    margin-top: 50px;
     width: 100px; 
     height: 100px; 
-    background-color: red; 
+    background-color: red;
+    display: grid;
+     
   } 
   .green2 { 
     width: 100px; 

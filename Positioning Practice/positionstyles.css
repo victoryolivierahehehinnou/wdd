@@ -72,28 +72,30 @@
     /* This is the parent of the activity 3 boxes. */
   }
   .red3 {
-    width: 100px; 
+    width: 1000px; 
     height: 100px; 
     background-color: red;
-    display: grid;
-    grid-template-columns: auto;
-    grid-column-gap:0px;
-    grid-column:auto;
+    
+    
   } 
   .green3 {
-    width: 100px; 
-    height: 100px; 
+    width: 350px; 
+    height: 250px; 
     background-color: green;
+    margin-left: 05%;
+
   } 
   .yellow3 {
     width: 100px; 
     height: 100px; 
-    background-color: gold; 
+    background-color: gold;
+    margin-left: 80%;
+    display: grid;
   } 
   .blue3 {
-    width: 100px;
+    width: 1000px;
     height: 100px; 
-    background-color: blue; 
+    background-color: blue;
   } 
   /* Activity 4 styles */ 
   .content4 {

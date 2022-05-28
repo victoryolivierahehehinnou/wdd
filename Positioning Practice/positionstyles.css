@@ -86,11 +86,11 @@
 
   } 
   .yellow3 {
-    width: 100px; 
-    height: 100px; 
+    width: 350px; 
+    height: 250px; 
     background-color: gold;
-    margin-left: 80%;
-    display: grid;
+    margin-left: 60%;
+    grid-column-start:auto;
   } 
   .blue3 {
     width: 1000px;

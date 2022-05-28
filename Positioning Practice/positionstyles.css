@@ -41,23 +41,31 @@
     width: 100px; 
     height: 100px; 
     background-color: red;
-    display: grid;
+    margin-top: 20%;
+    margin-right: 50%;
      
   } 
   .green2 { 
     width: 100px; 
     height: 100px; 
-    background-color: green; 
+    background-color: green;
+    margin-left: 5%;
+    float:top;
   } 
   .yellow2 {
     width: 100px; 
     height: 100px; 
-    background-color: gold; 
+    background-color: gold;
+    margin-left: 10%;
+    float:top;
+    
   } 
   .blue2 {
     width: 100px; 
     height: 100px; 
-    background-color: blue; 
+    background-color: blue;
+    margin-left: 15%;
+    float:top;
   } 
   /* Activity 3 styles */ 
   .content3 {
@@ -66,7 +74,11 @@
   .red3 {
     width: 100px; 
     height: 100px; 
-    background-color: red; 
+    background-color: red;
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap:0px;
+    grid-column:auto;
   } 
   .green3 {
     width: 100px; 

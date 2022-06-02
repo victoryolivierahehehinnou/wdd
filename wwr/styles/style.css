@@ -28,6 +28,7 @@ nav a {
     text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
+    margin-top: 100px;
   }
 #hero-msg h4 {
     text-align: center;
@@ -90,6 +91,8 @@ nav a{
   .rivers-card{
     margin: 200px 0;
     text-align: center;
+    grid-column: 2/4;
+    grid-row: 2/3;
   }
   .book:hover, .join:hover{
     background-color: hsla(225, 17%, 5%, 0.815);
@@ -153,9 +156,14 @@ footer h3 a:hover{
 }
 #hero {
   display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: -100px;
 }
 #hero-box {
   grid-column: 1/4;
   grid-row: 1/3;
+  z-index: -1;
+}
+.card-img, .mountains{
+  width: 100%;
 }

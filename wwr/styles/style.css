@@ -7,6 +7,8 @@ Fonts are separated by a | */
 }
 #logo_link {
   padding-top: 5px;
+  justify-self: left;
+  align-self: center;
 }
 #content {
     max-width: 1600px;
@@ -24,9 +26,12 @@ nav a {
   }
 #hero-msg {
     text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
   }
 #hero-msg h4 {
     text-align: center;
+    color: white;
   }
 .button-box {
     text-align: center;
@@ -48,8 +53,12 @@ main section {
     background-color: #ac0f;
     color: black;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 150px auto;    
   }
+  nav {
+    display: flex;
+    justify-content: space-around;
+}
   .home-title{
     color: white;
     font-family: "Koulen";
@@ -141,4 +150,12 @@ footer h3 a:hover{
     text-size-adjust: 14px;
     text-decoration: solid;
     text-align: center;
+}
+#hero {
+  display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
 }

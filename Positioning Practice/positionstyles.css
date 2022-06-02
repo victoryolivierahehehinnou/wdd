@@ -82,7 +82,8 @@
     width: 350px; 
     height: 250px; 
     background-color: green;
-    margin-left: 05%;
+    margin-left: 05%
+    
 
   } 
   .yellow3 {
@@ -100,11 +101,18 @@
   .content4 {
     /* This is the parent of the activity 4 boxes. */
     height: 400px;
+    justify-content: center;
+   align-content: center;
+   justify-items: center;
+    align-items: center;
+    z-index: axis;
+    
   }
   .red4 {
     width: 100px; 
     height: 100px; 
-    background-color: red; 
+    background-color: red;
+    
   } 
   .green4 {
     width: 200px; 

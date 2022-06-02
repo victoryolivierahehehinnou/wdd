@@ -47,6 +47,8 @@ main section {
   header{
     background-color: #ac0f;
     color: black;
+    display: grid;
+    grid-template-columns: 150px auto;
   }
   .home-title{
     color: white;

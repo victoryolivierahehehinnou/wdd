@@ -169,6 +169,7 @@ footer h3 a:hover{
     text-size-adjust: 14px;
     text-decoration: solid;
     text-align: center;
+    margin-top: 25px;
 }
 #hero {
   display: grid;
@@ -226,5 +227,13 @@ footer h3 a:hover{
   .rivers-card, .camping-card, .rapids-card{
     margin: 50px auto;
     width: 60%;
+  }
+  #background {
+    display: none;
+  }
+  .mountains, .msg {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
   }
 }

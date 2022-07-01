@@ -283,3 +283,9 @@ footer h3 a:hover{
   width: 50%;
   border: 1px solid;
 }
+.block3 { 
+  margin-left: auto;
+}
+.block2 {
+  margin: auto;
+}

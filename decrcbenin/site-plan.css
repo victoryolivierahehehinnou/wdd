@@ -2,8 +2,11 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&family=Doris+Slab:wght@900&display=swap');
-.h1 {
-  font-family: Macondo;
+h1 {
+  font-family: Koulen;
+  margin: 0;
+  text-align: center;
+
 }
 #logo_link {
   padding-top: 5px;
@@ -35,7 +38,7 @@ nav a {
     text-align: center;
     color: white;
   }
-.button-box {
+.code+robotic.jpg {
     text-align: center;
   }
 main section {
@@ -194,7 +197,7 @@ footer h3 a:hover{
   width: 50%;
   border: 1px solid;
 }
-.block3, .block4, .block5, .block6, .block7, .block8, .block9 { 
+.block3, .block4, .block5, .block6, .block7, .block8, .block9, .block10, .block11, .block12 { 
   margin: auto;
 }
 .block2, .block1 {
